@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+# Reads the inputs of the MCP3008
+
 import spidev
 import time
 
