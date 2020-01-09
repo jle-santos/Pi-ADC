@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-# Reads the inputs of the MCP3008
-
 import spidev
 import time
 
@@ -30,6 +28,6 @@ while True:
 	
 	for channel in range(8):
 		data.append(readADC(channel))
-	
+	print("ADC Data -------\n")
 	print(data)
 	print("\n")
