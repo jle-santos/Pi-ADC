@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+# Reads ADC inputs from MCP3008
 import spidev
 import time
 
